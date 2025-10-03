@@ -76,13 +76,6 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## 💡 Notes
-
-* Debug APKs are larger (~60 MB), release APKs with shrinking are smaller (~6–8 MB)
-* Optimized for **arm64-v8a** devices
-
----
-
 ## 💖 Support
 
 If you enjoy PixelPDF, give it a ⭐ and share your feedback!
