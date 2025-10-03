@@ -86,9 +86,3 @@ This project is licensed under the **MIT License**.
 ## 💖 Support
 
 If you enjoy PixelPDF, give it a ⭐ and share your feedback!
-
----
-
-I can also make a **version with ASCII art or fancier emojis** for the title and sections so it looks even more “eye-catching” in GitHub.
-
-Do you want me to do that next?
