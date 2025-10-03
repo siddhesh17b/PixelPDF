@@ -1,146 +1,94 @@
-Here’s an attractive, detailed, and neat README you can use. Replace placeholder sections like screenshots, features, and requirements as needed.
+# 📚 PixelPDF – Material 3 PDF & eBook Opener
 
-````markdown name=README.md url=https://github.com/siddhesh17b/PixelPDF/blob/0de2fa594f7ae6db01be6aac6b063b2ff6a4d966/README.md
-# PixelPDF
-
-Create, view, and manage PDFs with ease on Android.
-
-[![License](https://img.shields.io/github/license/siddhesh17b/PixelPDF)](LICENSE)
-![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
-![Stars](https://img.shields.io/github/stars/siddhesh17b/PixelPDF?style=social)
-
-> PixelPDF is an Android app built with Kotlin that helps you convert images to PDF, merge/split PDFs, and manage your documents with a clean, simple interface.
+**PixelPDF** is a simple, elegant, and expressive PDF and eBook opener built with **Material 3 UI** in Android. Open your local PDFs and eBooks in a beautiful, modern interface.
 
 ---
 
-## Table of Contents
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Clone](#clone)
-  - [Open and Run](#open-and-run)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+## ✨ Features
+
+* 🎨 **Material 3 UI** – Modern, clean, and responsive interface
+* 📄 **PDF Viewer** – Open and read local PDF files effortlessly
+* 📚 **eBook Support** – Open ePub or other supported formats
+* 🔍 **Zoom & Scroll** – Smooth pinch-to-zoom and easy scrolling
+* 📂 **Local Storage Access** – Browse files stored on your device
+* ⚡ **Lightweight & Fast** – Optimized for speed and minimal footprint
+* 🌙 **Dark Mode Support** – Easy on the eyes in low-light conditions
 
 ---
 
-## Features
-- Convert images (JPG/PNG) to a single PDF
-- Merge multiple PDFs into one
-- Split a PDF by page ranges
-- Reorder, rotate, and delete pages before exporting
-- Share or open PDFs directly from the app
-- Lightweight, fast, and privacy-friendly (processing on-device)
+## 📱 Screenshots
 
-You can expand or modify this list to match the current scope of the app.
+*(Add screenshots here later if you want)*
 
 ---
 
-## Screenshots
-Add your app screenshots here for quick visual context.
+## 🚀 Getting Started
 
-| Home | Image to PDF | PDF Preview |
-|------|---------------|-------------|
-| ![Home](docs/images/screenshot_home.png) | ![Image to PDF](docs/images/screenshot_image_to_pdf.png) | ![Preview](docs/images/screenshot_preview.png) |
+1. Clone the repository:
 
-- Save your images in `docs/images/` and update the paths above.
+   ```bash
+   git clone https://github.com/siddhesh17b/PixelPDF.git
+   ```
 
----
+2. Open in **Android Studio**.
 
-## Getting Started
+3. Sync Gradle and build the project.
 
-### Prerequisites
-- Android Studio (Giraffe/Koala or newer)
-- JDK 17 (or your project’s configured JDK)
-- Android SDK with the required platforms and build tools
-- A device or emulator running Android 6.0+ (update if different)
-
-### Clone
-```bash
-git clone https://github.com/siddhesh17b/PixelPDF.git
-cd PixelPDF
-```
-
-### Open and Run
-1. Open the project in Android Studio.
-2. Let Gradle sync finish.
-3. Connect a device or start an emulator.
-4. Press Run ▶.
+4. Run on an emulator or physical device.
 
 ---
 
-## Usage
-1. Launch PixelPDF.
-2. Choose “Images to PDF” to pick images and arrange them before export.
-3. Use “Merge PDFs” to select and combine multiple PDFs.
-4. Use “Split PDF” to select a file and choose page ranges.
-5. Save or share the generated PDF.
+## 🔧 Build
 
-Tips:
-- Long-press items to reorder or rotate (if supported).
-- Use the preview to verify page order before exporting.
+* Minimum SDK: 29
+* Target SDK: 36
+* Kotlin & Jetpack Compose with Material 3
+
+> ⚠️ Release builds use code shrinking and resource optimization for a smaller APK size.
 
 ---
 
-## Project Structure
-A high-level overview (adjust to reflect the actual structure):
+## 📦 Release APK
 
-```
-app/
-  ├─ src/
-  │  ├─ main/
-  │  │  ├─ java/…          # Kotlin source
-  │  │  ├─ res/             # Layouts, drawables, strings
-  │  │  └─ AndroidManifest.xml
-  ├─ build.gradle
-gradle/
-settings.gradle
-```
+* After building a release variant, find the APK here:
 
-Tech highlights:
-- Language: Kotlin
-- Architecture: (e.g., MVVM) — update if applicable
-- UI: (e.g., XML layouts or Jetpack Compose) — update if applicable
-- Dependencies: (list key libraries like PDF processing, image picking, etc.)
+  ```
+  app/build/outputs/apk/release/app-release.apk
+  ```
 
 ---
 
-## Roadmap
-- [ ] Add in-app PDF viewer
-- [ ] Add OCR support for scanned images
-- [ ] Dark mode polish
-- [ ] Batch operations and background processing
-- [ ] Cloud backup/export integrations
+## 🤝 Contributing
 
-Feel free to update with your actual planned items.
+Contributions are welcome!
 
----
-
-## Contributing
-Contributions are welcome! Here’s how you can help:
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature/awesome-feature`.
-3. Commit your changes: `git commit -m "Add awesome feature"`.
-4. Push to the branch: `git push origin feature/awesome-feature`.
-5. Open a Pull Request.
-
-Please follow existing code style and include relevant tests where possible.
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Add your feature"`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a pull request
 
 ---
 
-## License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+## 📝 License
+
+This project is licensed under the **MIT License**.
 
 ---
 
-## Acknowledgments
-- Kotlin and Android open-source community
-- Icons and illustrations (credit your sources if you use any)
-- Libraries used for PDF processing and image handling (list them here)
-````
+## 💡 Notes
+
+* Debug APKs are larger (~60 MB), release APKs with shrinking are smaller (~6–8 MB)
+* Optimized for **arm64-v8a** devices
+
+---
+
+## 💖 Support
+
+If you enjoy PixelPDF, give it a ⭐ and share your feedback!
+
+---
+
+I can also make a **version with ASCII art or fancier emojis** for the title and sections so it looks even more “eye-catching” in GitHub.
+
+Do you want me to do that next?
